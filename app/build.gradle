@@ -40,6 +40,9 @@ dependencies {
     //ViewPager animation
     implementation 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:2.0.24'
 
+    //For ImageView as circle
+    implementation 'com.mikhaellopez:circularimageview:4.2.0'
+
     //Room - for access to database
     implementation "androidx.room:room-runtime:2.2.5"
     annotationProcessor "androidx.room:room-compiler:2.2.5"
@@ -48,6 +51,9 @@ dependencies {
     implementation "io.reactivex.rxjava3:rxjava:3.0.0"
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
     implementation 'com.jakewharton.rxbinding4:rxbinding:4.0.0'
+
+
+
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.navigation:navigation-fragment:2.3.0'
     implementation 'androidx.navigation:navigation-ui:2.3.0'
