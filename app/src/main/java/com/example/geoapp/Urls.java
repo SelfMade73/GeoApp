@@ -18,6 +18,7 @@ public abstract class Urls {
 
     public static String deleteMarkUrl(String user_id , Mark mark){
         Uri.Builder builder = new Uri.Builder();
+
         return builder.authority( Urls.API_USER_MARKS)
                 .appendPath(user_id)
                 .appendQueryParameter("lat", String.valueOf(mark.getLatitude()))

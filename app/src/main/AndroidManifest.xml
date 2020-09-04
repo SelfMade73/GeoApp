@@ -15,6 +15,10 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".MainDrawerActivity"
+            android:label="@string/title_activity_main_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".MapMainActivity"
             android:label="@string/title_activity_map_main" />
         <activity android:name=".IntroActivity" />

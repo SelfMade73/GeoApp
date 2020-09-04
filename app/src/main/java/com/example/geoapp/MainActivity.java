@@ -27,8 +27,12 @@ public class MainActivity extends AppCompatActivity {
         Button btn = findViewById(R.id.button);
         Button btn2 = findViewById(R.id.button4);
         Button btn3 = findViewById(R.id.button5);
+        Button btn6 = findViewById(R.id.button6);
 
 
+        btn6.setOnClickListener(v->{
+            startActivity(new Intent(MainActivity.this, MainDrawerActivity.class));
+        });
         btn3.setOnClickListener(v->{
             startActivity(new Intent(MainActivity.this, MapMainActivity.class));
         });

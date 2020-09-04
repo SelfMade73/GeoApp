@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item
+            android:id="@+id/edit_account"
+            android:title="Edit Account" />
+        <item
+            android:id="@+id/theme"
+            android:title="Theme" />
+        <item
+            android:id="@+id/about_app"
+            android:title="About App" />
+        <item
+            android:id="@+id/sign_out"
+            android:title="Sign Out" />
+    </group>
+</menu>
